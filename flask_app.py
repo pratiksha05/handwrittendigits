@@ -5,8 +5,10 @@
 # License: BSD 3 clause
 
 # Standard scientific Python imports
-import matplotlib.backends.backend_tkagg
+
 import matplotlib
+
+import matplotlib.backends.backend_tkagg
 matplotlib.use("tkagg")
 import matplotlib.pyplot as plt 
 
