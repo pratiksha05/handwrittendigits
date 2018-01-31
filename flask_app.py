@@ -27,11 +27,11 @@ digits = datasets.load_digits()
 # images, we know which digit they represent: it is given in the 'target' of
 # the dataset.
 images_and_labels = list(zip(digits.images, digits.target))
-for index, (image, label) in enumerate(images_and_labels[:4]):
-    plt.subplot(2, 4, index + 1)
-    plt.axis('off')
-    plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
-    plt.title('Training: %i' % label)
+#for index, (image, label) in enumerate(images_and_labels[:4]):
+#    plt.subplot(2, 4, index + 1)
+#    plt.axis('off')
+#    plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
+#    plt.title('Training: %i' % label)
 
 # To apply a classifier on this data, we need to flatten the image, to
 # turn the data in a (samples, feature) matrix:
