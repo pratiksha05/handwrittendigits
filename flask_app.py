@@ -5,6 +5,7 @@
 # License: BSD 3 clause
 
 # Standard scientific Python imports
+import matplotlib
 import matplotlib.pyplot as plt
 
 # Import datasets, classifiers and performance metrics
