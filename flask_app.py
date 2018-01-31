@@ -6,7 +6,8 @@
 
 # Standard scientific Python imports
 import matplotlib
-import matplotlib.pyplot as plt
+matplotlib.use("tkagg")
+import matplotlib.pyplot as plt 
 
 # Import datasets, classifiers and performance metrics
 from sklearn import datasets, svm, metrics
