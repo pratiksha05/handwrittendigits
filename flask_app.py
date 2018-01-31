@@ -1,10 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 24 15:47:30 2018
 
-@author: A664120
-"""
-print(__doc__)
+
 
 # Author: Gael Varoquaux <gael dot varoquaux at normalesup dot org>
 # License: BSD 3 clause
