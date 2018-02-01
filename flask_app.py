@@ -7,9 +7,7 @@
 # Standard scientific Python imports
 
 import matplotlib
-
-import matplotlib.backends.backend_tkagg
-matplotlib.use("tkagg")
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt 
 
 # Import datasets, classifiers and performance metrics
